@@ -2,6 +2,12 @@ My very first PBI project
 I created this report, while following an online guided course by Lokesh Lalwani
 This course helped me immensly, to get familiar with tons of concepts, ranging from basic upto intermediate
 Here, I will hihglight few of the key learnings which I took from this course
+============================================================================================================
+
+Benefit of connecting with a folder : In case, when we have to add multiple files of same type, and if we know we will get another same type of file after some interval, e.g. yearly or monthly data, we can create a folder for those files, keep those files in that folder, and instead of adding those multiple files individually, we can instead connect to folder.
+Advantage:
+1) Next time, when we will get other file, lets say next years sales data, we dont have to manually add that file to PBI and repeat the same process. Since we have created the connection with the folder, we just have to add file to the folder, and refresh on PBI part, thats it.
+2) Also, we dont have to care about filename consistency, otherwise it we would have created connection to the file, changing the filename or any alteration in filename would break connection as PBI can't recognize with changed filename.
 
 ![1](https://user-images.githubusercontent.com/23423475/161371609-baac7f0f-f21b-49cd-95be-ff2c8bdbdee6.PNG)
 
@@ -11,11 +17,17 @@ Here, I will hihglight few of the key learnings which I took from this course
 
 ![4](https://user-images.githubusercontent.com/23423475/161371613-a01df2a8-7ba9-40f0-b6a0-4744b385a84e.PNG)
 
+Importance of checking data type of each column thoroughly, because if missed, later will create issues in analyzing data. E.g. if Date column is in text format, we will not be able to perform Date related functions
+
 ![5](https://user-images.githubusercontent.com/23423475/161371614-dd66e411-2575-4f87-9f09-044725156c09.PNG)
+
+Renaming query, and categorizing tables as Dimension or Fact
 
 ![6](https://user-images.githubusercontent.com/23423475/161371615-f7033772-6155-47c6-a225-fb95d9f592cd.PNG)
 
 ![7](https://user-images.githubusercontent.com/23423475/161371616-e5eab09a-9e2f-47d2-8a03-6cba0746b17e.PNG)
+
+Giving proper name to applied step, as by time steps may keep increasing and if we will come later, we might not be able to recollect which step is doing what or we may not be able to find a particular step directly
 
 ![8](https://user-images.githubusercontent.com/23423475/161371618-51af7fb8-a85f-4cbb-bbdc-76eeec0d3015.PNG)
 
@@ -86,6 +98,8 @@ Here, I will hihglight few of the key learnings which I took from this course
 ![41](https://user-images.githubusercontent.com/23423475/161371655-040956ef-dd79-49cf-925c-ecf88b80ac7c.png)
 
 ![42](https://user-images.githubusercontent.com/23423475/161371657-b9cf3237-9fec-4e0f-8c12-b629483430cc.png)
+
+sometimes, it is required that we need to fetch the values from an indirectly related table, in our case, customers and territories table are not connected directly, these are connected through a shared fact sales table. suppose i would like to know in which country, what is the average annual income of our customers. We are getting total because these 2 tables are not connected directly, and even if they are connected through shared table, problem lies with the crossfilter direction. cross filter is flowing downstream from dim table towards the fact table. requirement is that territory should be able to control customer table, which it wont be able to do. territory table can control sales, but sales in turn cant control customers table
 
 ![43](https://user-images.githubusercontent.com/23423475/161371658-2b113d35-69cf-4126-9ee3-da4f43c67a15.png)
 
