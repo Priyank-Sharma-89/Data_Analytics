@@ -1,3 +1,6 @@
+![AWReport](https://user-images.githubusercontent.com/23423475/161396875-7cd9699a-b0da-4501-8850-ce126295593e.png)
+
+
 My very first PBI project
 I created this report, while following an online guided course by Lokesh Lalwani
 This course helped me immensly, to get familiar with tons of concepts, ranging from basic upto intermediate
