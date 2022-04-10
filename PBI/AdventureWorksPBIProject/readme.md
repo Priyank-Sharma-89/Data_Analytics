@@ -1,4 +1,4 @@
-![AWReport](https://user-images.githubusercontent.com/23423475/161396875-7cd9699a-b0da-4501-8850-ce126295593e.png)
+![AWReport](https://user-images.githubusercontent.com/23423475/162636351-80c52526-d428-4443-98fc-e7f375576dc6.JPG)
 
 
 My very first PBI project
