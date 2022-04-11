@@ -1,1 +1,1 @@
-![Comparative Sales Analysis](https://user-images.githubusercontent.com/23423475/162815819-ec05d359-c565-42b3-a347-cb0282ea1934.JPG)
+![Comparative Sales Analysis](https://user-images.githubusercontent.com/23423475/162816368-d49d66bf-b1ad-404d-9058-ab974e7bb605.JPG)
